@@ -7,6 +7,6 @@ function bol() {
         return;
     }
 
-    document.getElementById("sonuc").innerHTML = s1 / s2;
+    document.getElementById("sonuc").innerHTML = Math.round(s1 / s2);
 }
-
+// Bolme branchı uzerınden gelındı.. belirtectir!
